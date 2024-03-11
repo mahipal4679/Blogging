@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.block-container{
+  height: 390px;
+  width: 70%;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,98,121,0.2498249299719888) 61%, rgba(0,212,255,1) 90%);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 10px;
+
+}
+.block-input{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   width: 40%;
+}
+.block-input label{
+  font-weight: 600;
+  font-size: large;
+  margin: 0%;
+}
+
+.block-input input{
+  border: 1px solid rgb(196, 196, 209);
+  border-radius:5px ;
+  height: 35px;
+  background-color: rgb(233, 225, 215);
+}
+.text-1{
+  order: 1px solid rgb(196, 196, 209);
+  border-radius:5px ;
+  height: 70px;
+  background-color: rgb(233, 225, 215);
+
+}
+.btn{
+  height: 40px;
+  width: 60%;
+  margin-top: 15px;
+  background-color: rgb(246, 185, 185);
+  border-radius: 5px;
+  color:rgba(0, 0, 0, 0.927);
+  font-size: large;
+  font-weight: 400;
+  position: absolute;
+  top: -7px;
+  left: 50px;
+}
+.btn-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+h2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(98, 0, 255);
+  text-align: center;
+  margin-top: 10px;
+ 
+ }
+ 
+ h1{
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   margin-top: 10px;
+ }
+ 
+.blog{
+  max-width: 60%;
+  background-color: rgb(192, 237, 236);
+  color: black;
+  font-weight: lighter;
+  border: 1px black solid;
+  margin:auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 10px;
+  max-width: 60%;
+
+}
+.remove{
+  background-color: rgb(230, 83, 83);
+  width:fit-content
+}
+
+.blog-btn{
+  text-align: end;
+  margin-right: 10px;
+  
+}
+
+
